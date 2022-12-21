@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(26,26,26,0.9), rgba(26,26,26,0.9)), url("images/Orange-County-Logo.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -51,6 +50,7 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
+    background-position: 50% 50%;
     background-size: 155%;
   }
 
@@ -187,7 +187,7 @@
   height: 78px;
   width: 78px;
   margin: 0 auto;
-  padding: 12px;
+  padding: 18px;
 }
 
 .u-section-2 .u-text-1 {
@@ -215,7 +215,7 @@
   height: 78px;
   width: 78px;
   margin: 0 auto;
-  padding: 8px;
+  padding: 18px;
 }
 
 .u-section-2 .u-text-3 {
@@ -243,7 +243,7 @@
   height: 78px;
   width: 78px;
   margin: 0 auto;
-  padding: 8px;
+  padding: 18px;
 }
 
 .u-section-2 .u-text-5 {
@@ -271,7 +271,7 @@
   height: 78px;
   width: 78px;
   margin: 0 auto;
-  padding: 8px;
+  padding: 18px;
 }
 
 .u-section-2 .u-text-7 {
@@ -360,12 +360,8 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: repeat(1, 100%);
   }
-} .u-section-3 {
-  background-image: none;
-}
-
-.u-section-3 .u-sheet-1 {
-  min-height: 500px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 100vh;
 }
 
 .u-section-3 .u-text-1 {
@@ -380,7 +376,15 @@
   font-size: 1.125rem;
   font-weight: 500;
   width: 781px;
-  margin: 43px auto 60px;
+  margin: 43px auto 0;
+}
+
+.u-section-3 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 30px auto 60px;
 }
 
 @media (max-width: 991px) {
@@ -461,22 +465,6 @@
 .u-section-4 .u-form-1 {
   height: 313px;
   margin: -362px 7px 45px 112px;
-}
-
-.u-section-4 .u-form-group-1 {
-  width: 100%;
-}
-
-.u-section-4 .u-form-group-2 {
-  width: 100%;
-}
-
-.u-section-4 .u-form-group-3 {
-  width: 100%;
-}
-
-.u-section-4 .u-form-group-4 {
-  width: 100%;
 }
 
 .u-section-4 .u-btn-1 {
